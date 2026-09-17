@@ -42,7 +42,7 @@ Separating the genome from the rest of the .fasta file required data pasring and
 ### Prerequisites
 
 ```bash
-pip install biopython scikit-learn xgboost numpy pandas
+pip install xgboost scikit-learn pandas numpy matplotlib seaborn biopython
 ```
 
 ### Usage
