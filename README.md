@@ -8,6 +8,8 @@ A machine learning pipeline for classifying SARS-CoV-2 variants (Alpha, Beta, De
 
 Viral genome sequences differ in ways that can be captured computationally without full alignment or phylogenetic analysis. This project explores whether simple sequence-composition features (k-mers) are enough to reliably distinguish between COVID-19 variants using standard ML classifiers.
 
+Separating the genome from the rest of the .fasta file required data pasring and output as a .csv file including the genome as well as its label. Parse_strains.py was needed to get the data ready for covid_strain_classifier.py. 
+
 ## Data Pipeline
 
 1. Parse FASTA files using Biopython
